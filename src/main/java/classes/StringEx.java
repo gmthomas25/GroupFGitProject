@@ -46,6 +46,7 @@ public class StringEx {
 	
 	// if str>str2 then str shouldbe before str2
 	public static String append(String str, String str2) {
+		String result = " ";
 		return "";
 	}
 }
