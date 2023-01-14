@@ -7,7 +7,9 @@ public class StringEx {
 	}
 	
 	public static String toUpper(String str) {
-		return "";
+		String result = " ";
+		
+		return result;
 	}
 	
 	public static String toLower(String str) {
