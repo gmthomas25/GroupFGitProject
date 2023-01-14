@@ -17,6 +17,12 @@ public class StringEx {
 	}
 	
 	public static void equal(String str1, String str2) {
+		if (str1.equals(str2)) {
+			System.out.println(("Equals"));
+		}else {
+			System.out.println(("not Equals"));
+			
+		}
 		
 	}
 	
