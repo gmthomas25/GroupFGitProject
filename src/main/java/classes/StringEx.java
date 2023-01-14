@@ -19,7 +19,7 @@ public class StringEx {
 	 * @return
 	 */
 	public static String toUpper(String str) {
-		String result = " ";
+		String result = "";
 		
 		result = str.toUpperCase();		
 		return result;
@@ -45,7 +45,7 @@ public class StringEx {
 	 * @param str2
 	 */
 	public static void equal(String str1, String str2) {
-		if (str1.equals(str2)) {
+		if (str1.equalsIgnoreCase(str2)) {
 			System.out.println(("Equals"));
 		}else {
 			System.out.println(("not Equals"));
