@@ -13,7 +13,9 @@ public class StringEx {
 	}
 	
 	public static String toLower(String str) {
-		return "";
+		  String result = "";
+	     result =   (str.toLowerCase());
+		return result;
 	}
 	
 	public static void equal(String str1, String str2) {
